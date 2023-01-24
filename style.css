@@ -1,0 +1,180 @@
+
+html, body {
+	font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+	color: #00c8bb;
+	padding: 5px;
+}
+
+p, small{
+	font-weight: 300;
+}
+
+.section1{
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	border-radius: 18px;
+}
+
+.section1 .dp{
+	display: flex;
+	overflow: auto;
+	width: 100%;
+	margin-right: 16px;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.dp::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.dp::-webkit-scrollbar:vertical {
+    width:3px;
+}
+
+.dp::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.dp::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
+
+.dp::-webkit-scrollbar-thumb {
+    background-color: #63ecbc;
+    border-radius: 20px;
+    border: 1px solid #00c8bb;
+}
+
+.dp::-webkit-scrollbar-track {
+    border-radius: 5px;  
+}
+
+/* scroll vertical */
+.lm::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.lm::-webkit-scrollbar:vertical {
+    width:3px;
+}
+
+.lm::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.lm::-webkit-scrollbar:horizontal {
+    height: 3px;
+}
+
+.lm::-webkit-scrollbar-thumb {
+    background-color: #63ecbc;
+    border-radius: 20px;
+    border: 1px solid #00c8bb;
+}
+
+.lm::-webkit-scrollbar-track {
+    border-radius: 5px;  
+}
+
+
+/* usuarios horizontal */
+
+.section1 .d1{
+	background-color: #000924;
+	width: 20%;
+	padding: 24px;
+}
+
+.section1 .d1 .d1-1{
+	position: relative;
+	width: 48px;
+	margin: 8px;
+}
+.section1 .d1 .img2{
+	margin-bottom: 32px;
+}
+
+.section1 .d1 .d1-2{
+	position: absolute;
+	background-color: #45d345;
+	padding: 4px;
+	border: 2px solid grey;
+	border-radius: 9999px;
+	bottom: 0;
+	right: 0;
+}
+
+.section1 .d2{
+	align-self: center;
+	text-align: center;
+	margin-right: 16px;
+}
+
+.section1 .d3{
+	background-color: rgb(221, 221, 223);
+	width: 80%;
+}
+
+.section1 .d1 .h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #00c8bb;
+}
+
+.d1 .img1{
+	border-radius: 9999px;
+}
+
+.small-uh{
+	font-weight: 500;
+}
+
+/* Lista de mensajes */
+.lm{
+	overflow: auto;
+	height: 80%;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.lm .d1-l .img-l{
+	border-radius: 9999px;
+	width: 48px;
+	margin-right: 16px;
+}
+
+.lm .d1-l{
+	display: flex;
+	margin-right: 3px;
+	margin-bottom: 16px;
+	background-color: #63ecbc;
+	color: #000924;
+	border-radius: 8px;
+	padding: 16px;
+}
+
+.lm .d3-l{
+	display: flex;
+}
+
+.lm .d2-l{
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+.small1{
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.p1-l{
+	font-weight: 500;
+	flex-grow: 1;
+}
