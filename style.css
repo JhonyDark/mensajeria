@@ -185,7 +185,7 @@ p, small{
 	flex-grow: 1;
 }
 
-/*Derecha*/
+/*Derecha head*/
 .section1 .d3{
 	background-color: rgb(221, 221, 223);
 	width: 80%;
@@ -210,6 +210,32 @@ p, small{
 
 .section1 .pd-head{
 	display: flex;
+	flex-grow: 1;
+}
+
+.dp-head{
+	display: flex;
+	align-self: center;
+}
+
+.pd-head .d1-1{
+	margin-right: 16px;
+}
+
+.pd-head .d3-1-head{
+	align-self: center;
+}
+
+.d3-head .d3-2-head{
+	display: flex;
+	height: 100%;
+	margin: auto;
+}
+
+.search{
+	width: 24px;
+	margin-right: 16px;
+	color: rgb(0, 9, 36);
 }
 
 @media (max-width: 1024px) {
