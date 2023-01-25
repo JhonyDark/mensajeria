@@ -81,6 +81,33 @@ p, small{
     border-radius: 5px;  
 }
 
+/* scroll vertical Messages */
+.d3-messages::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+.d3-messages::-webkit-scrollbar:vertical {
+	width:5px;
+}
+
+.d3-messages::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+	display: none;
+}
+
+.d3-messages::-webkit-scrollbar:horizontal {
+	height: 5px;
+}
+
+.d3-messages::-webkit-scrollbar-thumb {
+	background-color: #63ecbc;
+	border-radius: 20px;
+	border: 2px solid #00c8bb;
+}
+
+.d3-messages::-webkit-scrollbar-track {
+	border-radius: 5px;
+}
+
 
 /* usuarios horizontal */
 
@@ -251,6 +278,78 @@ p, small{
 .d3-2-head .search:last-child{
 	margin-right: 0;
 }
+
+/*Derecha Messages*/
+.d3 .d3-messages{
+	height: 75%;
+	overflow: auto;
+	padding-right: 80px;
+	padding-left: 80px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	border-bottom-width: 1px;
+}
+
+.d3-messages .d3-1-message{
+	display: flex;
+	flex-direction: column;
+	color: #000924;
+}
+
+.d3-messages .img3{
+	border-radius: 9999px;
+	width: 48px;
+	margin-right: 16px;
+	align-self: end;
+}
+
+.d3-messages .img4{
+	border-radius: 9999px;
+	width: 48px;
+	margin-left: 16px;
+	align-self: end;
+}
+
+.d3-1-message .time{
+	align-self: end;
+}
+
+.d3-1-message .d3-2-message{
+	background-color: white;
+	padding: 24px;
+	width: 384px;
+	border-radius: 24px;
+	border-bottom-left-radius: 0px;
+	box-shadow: 0 5px 10px #000924;
+	margin-bottom: 14px;
+}
+
+.d3-messages .d3-3-message, .flex-reverse{
+	display: flex;
+	margin-bottom: 48px;
+}
+
+.d3-2-message .txt-message{
+	font-weight: 500;
+}
+
+.d3-messages .flex-reverse{
+	flex-direction: row-reverse;
+}
+
+.d3-1-message .reverse{
+	background-color: #00c8bb;
+	color: black;
+	padding: 24px;
+	width: 384px;
+	border-radius: 24px;
+	box-shadow: 0 5px 10px #000924;
+	border-bottom-right-radius: 0px;
+	margin-bottom: 14px;
+	font-weight: 900;
+}
+
+
 
 @media (max-width: 1024px) {
 	.section1 .d1{
