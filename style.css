@@ -157,6 +157,12 @@ p, small{
 	color: #000924;
 	border-radius: 8px;
 	padding: 16px;
+	transform: perspective(600px) rotateY(0deg);
+	box-shadow: 0 5px 10px #63ecbc;
+}
+
+.lm .d1-l:hover{
+	transform: perspective(600px) rotateY(40deg);
 }
 
 .d1-l:hover{
@@ -232,10 +238,18 @@ p, small{
 	margin: auto;
 }
 
-.search{
+.d3-2-head .search{
 	width: 24px;
 	margin-right: 16px;
 	color: rgb(0, 9, 36);
+}
+
+.d3-2-head .search:hover{
+	color: #00c8bb;
+}
+
+.d3-2-head .search:last-child{
+	margin-right: 0;
 }
 
 @media (max-width: 1024px) {
