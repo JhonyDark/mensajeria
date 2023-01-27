@@ -486,7 +486,7 @@ p, small{
 		margin-left: 30px;
 	}
 	.d3 .d3-messages{
-		height: 76%;
+		height: calc(100vh - 235.23px);
 		overflow: auto;
 		padding-right: 10px;
 		padding-left: 5px;
