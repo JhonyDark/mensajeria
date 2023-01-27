@@ -14,7 +14,7 @@ p, small{
 
 .section1{
 	margin-top: 5px;
-	height: 94%;
+	height: 100%;
 	display: flex;
 	overflow: hidden;
 	border-radius: 18px;
@@ -285,7 +285,8 @@ p, small{
 
 /*Derecha Messages*/
 .d3 .d3-messages{
-	height: 78%;
+	height: calc(100vh - 222.23px);
+	/*height: 78%;*/
 	overflow: auto;
 	padding-right: 80px;
 	padding-left: 80px;
@@ -486,7 +487,7 @@ p, small{
 		margin-left: 30px;
 	}
 	.d3 .d3-messages{
-		height: calc(100vh - 235.23px);
+		height: calc(100vh - 222.23px);
 		overflow: auto;
 		padding-right: 10px;
 		padding-left: 5px;
